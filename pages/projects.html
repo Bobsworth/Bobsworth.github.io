@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>MPowCook</title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/js/gsap/minified/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/js/ScrollMagic/js/jquery.scrollmagic.min.js"></script>
+    <script></script>
+</head>
+
+<body>
+
+    <main role="main">
+
+        <div>
+            <h1 id="title">Martin Powlesland-Cook</h1>
+        </div>
+
+        <div id="pinned-trigger1"></div>
+
+        <nav id="pinned-nav">
+            <ul class="flexcontainer">
+                <li class="flexitem"><a href="/index.html">Home</a>
+                </li>
+                <li class="flexitem"><a href="about.html">About Me</a>
+                </li>
+
+                <li class="flexitem"><a href="#">Blog</a>
+                </li>
+                <li class="flexitem"><a href="#title">Top</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <section>
+            <h1>Projects</h1>
+            <div>
+                <h4>JavaScript</h4>
+                <article>
+                    <p>When learning JavaScript I decided to learn by creating a script to create a fractal called an Appollonian Gasket.</p>
+                    <a href="#" class="circle-button" id="apollobutton"></a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script>
+        $("#blogbutton").click(function() {
+            $("#noblog").css("display", "inherit");
+        });
+
+         // init ScrollMagic Controller
+        controller = new ScrollMagic();
+
+        var sceneforpin = new ScrollScene({
+            triggerElement: "#pinned-trigger1",
+            triggerHook: 0,
+            reverse: true
+        })
+         sceneforpin.setPin("#pinned-nav");
+
+        /*var tween = TweenMax.to("#shrink", 0.5, {
+            width: "100%"
+        });
+
+        var sceneforshrink = new ScrollScene({
+            triggerElement: "#pinned-trigger1",
+            triggerHook: 0,
+            reverse: true
+        });
+
+
+
+        sceneforcol.setTween(tween);*/
+        controller.addScene([sceneforpin /*, sceneforshrink*/ ]);
+    </script>
+
+
+</body>
+
+</html>
