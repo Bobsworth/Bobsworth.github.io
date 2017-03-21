@@ -46,7 +46,6 @@ nav>* {
     background-color: #c8d1ff;
     text-align: center;
     height: 100%;
-    max-width: 900px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
