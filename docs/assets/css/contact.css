@@ -7,6 +7,9 @@ body {
     background-color: #fcffb9;
     padding: 1vh;
 }
+.wrapper ul {
+    list-style-type: none;
+}
 
 form {
 	width: 800px;
