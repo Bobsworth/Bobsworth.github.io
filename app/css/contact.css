@@ -1,0 +1,42 @@
+html,
+body {
+    background-color: #fbffd8;
+}
+
+.wrapper {
+    background-color: #fcffb9;
+    padding: 1vh;
+}
+
+form {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form>* {
+    margin-bottom: 1vh;
+}
+
+label {
+	text-align: right;
+	margin-right: 15px;
+	width: 150px;
+}
+
+input, select, button {
+  width : 150px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+textarea{
+  margin: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
