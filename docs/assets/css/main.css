@@ -1,0 +1,3 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);html,body{font-family:'Poppins', sans-serif;height:100%;text-align:center;margin:0}body{font-size:15px}@media screen and (max-width: 670px){body{font-size:13px}}@media screen and (max-width: 480px){body{font-size:12px}}h1{text-align:center}.wrapper{width:100%}.sociallinks{list-style:none;padding:0}.sociallinks>*{display:inline}a.nav-button{box-sizing:border-box;color:inherit;font-weight:bold;text-decoration:none;border-color:black;border-style:solid;border-width:2px;border-radius:10px 10px 0 0}a.nav-button:hover{background-color:#d6ddff;border-bottom-width:4px;border-right-width:4px;border-top-style:none;border-left-style:none;text-indent:-0.2em}
+
+/*# sourceMappingURL=main.css.map */
