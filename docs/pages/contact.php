@@ -129,8 +129,8 @@ function get_data($var) {
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Contact Me</title>
 
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
-        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/contact.css">
 
         <style type="text/css">
             p.error,
