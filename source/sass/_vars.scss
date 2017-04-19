@@ -15,3 +15,8 @@ $color-secondary-2-1: #FFD6BE;
 $color-secondary-2-2: #FFBB92;
 $color-secondary-2-3: #FF904E;
 $color-secondary-2-4: #F2752B; 
+
+
+$htmlFontSize: 18;
+$screen-small: (1024/$htmlFontSize) + 'em';
+$tablet-small: (768/$htmlFontSize) + 'em';
